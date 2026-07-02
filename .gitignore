@@ -1,0 +1,29 @@
+com.xreal.xr.tar.gz
+
+# ---- Gradle / Android ----
+.gradle/
+build/
+*/build/
+*/*/build/
+local.properties
+captures/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# Unity project has its own .gitignore under unity/AirHUD-Spatial/

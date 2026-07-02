@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(winget install --id Unity.UnityHub --accept-package-agreements --accept-source-agreements --silent)",
+      "Read(//c/Program Files/Unity Hub/**)",
+      "Read(//c/Users/BM/AppData/Local/Programs/**)",
+      "Bash(where \"Unity Hub.exe\")",
+      "Bash(\"/c/Program Files/Unity Hub/Unity Hub.exe\" -- --headless help)",
+      "PowerShell(& \"C:\\\\Program Files\\\\Unity Hub\\\\Unity Hub.exe\" -- --headless help 2>&1)",
+      "PowerShell(& \"C:\\\\Program Files\\\\Unity Hub\\\\Unity Hub.exe\" --headless help 2>&1)",
+      "WebSearch",
+      "Bash(\"/c/Users/BM/AppData/Local/Unity/bin/unity.exe\" --version)",
+      "Bash(\"/c/Users/BM/AppData/Local/Unity/bin/unity.exe\" --help)",
+      "Bash(\"/c/Users/BM/AppData/Local/Unity/bin/unity.exe\" install *)",
+      "Bash(tee /c/Users/BM/AppData/Local/Temp/claude/z--project-aiirhub/1c37b10d-1c5d-48f4-8ec3-ae6322a6c32d/scratchpad/unity_install.log)",
+      "Bash(\"/c/Users/BM/AppData/Local/Unity/bin/unity.exe\" projects *)",
+      "Bash(\"/c/Users/BM/AppData/Local/Unity/bin/unity.exe\" license *)",
+      "Bash(\"/c/Users/BM/AppData/Local/Unity/bin/unity.exe\" auth *)",
+      "Bash('/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Unity.exe' -batchmode -nographics -quit -projectPath 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial' -executeMethod AirHud.EditorTools.SpatialHudSceneBuilder.BuildScene -logFile 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial\\\\unity_build2.log')",
+      "Bash(echo \"exit:$?\")",
+      "Read(//c/Users/BM/Downloads/**)",
+      "Read(//c/Users/BM/AppData/Local/Temp/**)",
+      "Bash('/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Unity.exe' -batchmode -nographics -quit -projectPath 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial' -logFile 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial\\\\unity_xreal_import.log')",
+      "Bash(find \"/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data\" -iname \"*ImageConversion*\" 2>&1)",
+      "Read(//c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/**)",
+      "Bash('/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Unity.exe' -batchmode -nographics -quit -projectPath 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial' -logFile 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial\\\\unity_xreal_import2.log')",
+      "Bash('/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Unity.exe' -batchmode -nographics -quit -projectPath 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial' -logFile 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial\\\\unity_xreal_import3.log')",
+      "Bash(grep -n -B1 -A6 '^\\\\s*\"com.unity.xr.core-utils\": {$' \"/z/project/aiirhub/unity/AirHUD-Spatial/Packages/packages-lock.json\")",
+      "Read(//c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/**)",
+      "Bash('/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Unity.exe' -batchmode -nographics -quit -projectPath 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial' -executeMethod AirHud.EditorTools.AndroidBuildScript.Build -logFile 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial\\\\unity_build_apk3.log')",
+      "Bash('/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Unity.exe' -batchmode -nographics -quit -projectPath 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial' -executeMethod AirHud.EditorTools.AndroidBuildScript.Build -logFile 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial\\\\unity_build_apk4.log')",
+      "Bash('/c/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Unity.exe' -batchmode -nographics -quit -buildTarget Android -projectPath 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial' -executeMethod AirHud.EditorTools.Pipeline.Run -logFile 'Z:\\\\project\\\\aiirhub\\\\unity\\\\AirHUD-Spatial\\\\unity_build_apk5.log')"
+    ]
+  }
+}

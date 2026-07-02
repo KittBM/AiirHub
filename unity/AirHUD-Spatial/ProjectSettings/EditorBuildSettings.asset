@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SpatialHUD.unity
+    guid: a3645a15a2ac2c641accd560425a026c
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 73abff26ac853ce4a84eccfe7a35c1f4, type: 2}
